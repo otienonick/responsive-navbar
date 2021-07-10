@@ -6,28 +6,38 @@
     font-size: 2rem;
 }
 .my-items a{
-    padding: 10px 25px !important;
+    padding: 10px 50px !important;
     font-size: 1.5rem;
 }
 .my-items a:hover{background: #fff;
     color: #007abc !important;
     
 }
+.my-style{
+    display: flex;
+}
 .nerves{
     background: #007abc !important;
 }
-@media (max-width:1500px){
+@media (max-width:992px){
     .my-things{
-        margin-left: -40px;
+        margin-left: -50px;
     }
-    .my-items a:hover{ width: 150px !important;
+    .item0:hover { width: 130px !important;
         
     }
-    .name-sec{
-        margin-left: -20px;
-        display: flex;
+    .item1:hover { width: 180px !important;
+        
     }
-
+    .item2:hover { width: 130px !important;
+        
+    }
+    .item3:hover { width: 150px !important;
+        
+    }
+    .item4:hover { width: 180px !important;
+        
+    }
 }
 
 
