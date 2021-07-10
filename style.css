@@ -1,0 +1,38 @@
+/* 
+.my-items a{
+    border: 1px dashed lime;
+}  */
+.my-name{
+    font-size: 2rem;
+}
+.my-items a{
+    padding: 10px 25px !important;
+    font-size: 1.5rem;
+}
+.my-items a:hover{background: #fff;
+    color: #007abc !important;
+    
+}
+.nerves{
+    background: #007abc !important;
+}
+@media (max-width:1500px){
+    .my-things{
+        margin-left: -40px;
+    }
+    .my-items a:hover{ width: 150px !important;
+        
+    }
+    .name-sec{
+        margin-left: -20px;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
